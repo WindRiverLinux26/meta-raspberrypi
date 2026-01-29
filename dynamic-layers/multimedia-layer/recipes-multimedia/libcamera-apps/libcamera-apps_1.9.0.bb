@@ -10,10 +10,9 @@ LIC_FILES_CHKSUM = "file://license.txt;md5=a0013d1b383d72ba4bdc5b750e7d1d77"
 SRC_URI = "\
     git://github.com/raspberrypi/rpicam-apps.git;protocol=https;branch=main \
     file://0001-utils-version.py-use-usr-bin-env-in-shebang.patch \
-    file://add-missing-header.patch \
 "
 
-SRCREV = "eca9928b76c106141667288f1cef935d02ba59b3"
+SRCREV = "d1d948293549a5fc9766e41788084638aff3c821"
 
 PROVIDES += "rpicam-apps"
 
