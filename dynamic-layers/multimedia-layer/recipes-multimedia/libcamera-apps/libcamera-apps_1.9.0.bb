@@ -44,3 +44,5 @@ do_install:append() {
 FILES:${PN} += "${libdir}/rpicam-apps-postproc \
                 ${libdir}/rpicam-apps-preview \
                 ${datadir}/rpi-camera-assets"
+
+COMPATIBLE_MACHINE = "^rpi$"
