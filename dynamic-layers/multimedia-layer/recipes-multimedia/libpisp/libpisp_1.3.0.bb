@@ -11,4 +11,6 @@ SRCREV = "9ba67e6680f03f31f2b1741a53e8fd549be82cbe"
 
 DEPENDS = "nlohmann-json"
 
+SRC_URI += "file://0001-build-Remove-build_rpath-to-fix-reproducibility-issu.patch"
+
 inherit meson pkgconfig
