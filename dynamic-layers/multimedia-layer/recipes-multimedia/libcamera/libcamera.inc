@@ -1,5 +1,5 @@
-PACKAGECONFIG[raspberrypi] = "-Dpipelines=rpi/pisp -Dipas=rpi/pisp -Dv4l2=true -Dtest=false -Dlc-compliance=disabled -Dcam=enabled -Ddocumentation=disabled"
-PACKAGECONFIG = " raspberrypi"
+EXTRA_OEMESON:append = " -Dipas=rpi/pisp,rpi/vc4"
+PACKAGECONFIG = " raspberrypi gst"
 CXXFLAGS = " -Wno-unaligned-access "
 
 DEPENDS += "libpisp"
